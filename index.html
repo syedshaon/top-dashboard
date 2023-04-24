@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Morgan Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav nav-mobile-sm">
+        <h1 class="nav-heading">
+          <span class="mdi mdi-view-dashboard"></span> Dashboard
+          <span class="arrow mdi mdi-arrow-down-thick"></span>
+        </h1>
+
+        <ul class="nav-personal">
+          <li><span class="mdi mdi-home"></span> Home</li>
+          <li><span class="mdi mdi-card-account-details"></span> Profile</li>
+          <li><span class="mdi mdi-message-reply"></span> Messages</li>
+          <li><span class="mdi mdi-clock-time-three"></span> History</li>
+          <li><span class="mdi mdi-note-multiple"></span> Tasks</li>
+          <li><span class="mdi mdi-account-group"></span> Communities</li>
+        </ul>
+        <ul class="nav-settings">
+          <li><span class="mdi mdi-cog"></span> Settings</li>
+          <li><span class="mdi mdi-help-box"></span> Support</li>
+          <li><span class="mdi mdi-shield-check"></span> Privacy</li>
+        </ul>
+      </nav>
+      <header class="header">
+        <div class="header-top">
+          <div class="search-area">
+            <label for="search"><span class="mdi mdi-magnify"></span></label>
+            <input type="text" name="search" id="search" />
+          </div>
+          <div class="profile-area">
+            <span class="mdi mdi-bell-ring-outline"></span>
+            <div class="profile-img">
+              <img src="./bunny.png" alt="Morgan" />
+            </div>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="header-bottom-intro">
+            <small>Hi there,</small>
+            <p>Morgan Oakley (@morgan)</p>
+          </div>
+          <div class="header-bottom-new">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+      <div class="projects">
+        <h3 class="section-intro">Your projects</h3>
+        <div class="projects-details">
+          <div class="card">
+            <h4>Super Cool Project</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Less Cool Project</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Impossible App</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Easy Peasy App</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Ad Blocker</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+          <div class="card">
+            <h4>Money Maker</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur,
+              totam autem repellat veritatis odio rem fugit fugiat unde quod
+              odit!
+            </p>
+            <div class="interact">
+              <span class="mdi mdi-star-plus"></span>
+              <span class="mdi mdi-eye-plus"></span>
+              <span class="mdi mdi-rotate-270 mdi-share-variant-outline"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Projects ends -->
+      <div class="announcements">
+        <h2 class="section-intro">Announcements</h2>
+        <div class="announcements-details">
+          <div class="card announcement">
+            <h3>Site Maintenance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              necessitatibus.
+            </p>
+          </div>
+          <div class="card announcement">
+            <h3>Community Share Day</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              necessitatibus.
+            </p>
+          </div>
+          <div class="card announcement">
+            <h3>Updated Privacy Policy</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
+              necessitatibus.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="trends">
+        <h2 class="section-intro">Trending</h2>
+        <div class="trends-details">
+          <div class="card">
+            <div class="card-icon"><span class="mdi mdi-horse"></span></div>
+            <div class="card-details">
+              <p class="username">@tegan</p>
+              <p>World Peace Builder</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <span class="mdi mdi-robot-excited"></span>
+            </div>
+            <div class="card-details">
+              <p class="username">@Versel</p>
+              <p>Super Cool Project</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <span class="mdi mdi-teddy-bear"></span>
+            </div>
+            <div class="card-details">
+              <p class="username">@kendall</p>
+              <p>Life Changing App</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-icon">
+              <span class="mdi mdi-dog"></span>
+            </div>
+            <div class="card-details">
+              <p class="username">@Alex</p>
+              <p>No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
